@@ -1,0 +1,53 @@
+.student-card {
+  border: 1px solid rgba(23, 11, 61, 0.1);
+  border-radius: 18px;
+  padding: 22px;
+  background: #ffffff;
+  box-shadow: 0 20px 50px rgba(32, 44, 88, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px rgba(32, 44, 88, 0.12);
+}
+
+.student-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.student-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #120d29;
+}
+
+.student-subtitle {
+  margin: 0;
+  color: #615e7e;
+  font-size: 14px;
+}
+
+.student-bio {
+  margin: 0 0 16px;
+  color: #4f4a68;
+  line-height: 1.6;
+}
+
+.student-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.student-tag {
+  background: rgba(118, 82, 255, 0.08);
+  border: 1px solid rgba(118, 82, 255, 0.18);
+  color: #5b35cb;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
